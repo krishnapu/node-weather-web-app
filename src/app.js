@@ -34,8 +34,8 @@ app.get('', (req, res) => {
 //About
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'About Us',
-        message: 'This web app is created using a Weather API ( Open Weather Map ) and Mapbox API. Thanks for using it..',
+        title: 'About',
+        message: 'This web app is created using a Weather API ( Open Weather Map ) and Mapbox API. Thanks for using it.. Yours Humbly Krishnaraj',
         name: 'Hasta la vista Baby'
     })
 })
