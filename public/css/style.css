@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 body {
     color: #333;
-    font-family: arial;
+    font-family: 'PT Sans', sans-serif;
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
@@ -44,12 +46,20 @@ footer {
 input {
     padding:8px;
     border: 1px solid #ccc;
+    font-size: 16px;
 }
 
 button {
-    border: 1px solid #333;
-    background: #333;
+    font-size: 16px;
+    border: 1px solid #888;
+    border-radius: 4px;
+    background: #888;
     color: #fff;
     padding:8px;
     cursor: pointer;
+}
+
+a {
+    color: green;
+    text-decoration: none;
 }

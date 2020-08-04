@@ -19,7 +19,8 @@ const weather = (lat, lon, callback) => {
         } else {
 
             callback(undefined,
-                `${body.weather[0].main}. The temperature is ${(body.main.temp - 273.15).toFixed(2)} °C  and the wind speed is ${body.wind.speed}m/s. Humidity is ${body.main.humidity}%`
+                `Weather: ${body.weather[0].main} | | Temperature: ${(body.main.temp - 273.15).toFixed(2)} °C  | | Wind_speed: ${body.wind.speed}m/s | |  Humidity: ${body.main.humidity}%`
+                // ${body.weather[0].main}. The temperature is ${(body.main.temp - 273.15).toFixed(2)} °C  and the wind speed is ${body.wind.speed}m/s. Humidity is ${body.main.humidity}%`
             )
 
         }

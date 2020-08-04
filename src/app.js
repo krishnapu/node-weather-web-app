@@ -26,6 +26,7 @@ app.get('', (req, res) => {
     res.render('index', {
         title: 'Weather',
         message: 'Enter a location to find the weather',
+
         name: 'Hasta la vista Baby'
     })
 })
