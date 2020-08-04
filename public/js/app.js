@@ -10,7 +10,7 @@ form.addEventListener('submit', (e) => {
     const location = input.value
     msg1.textContent = 'Loading...'
 
-    fetch(`http://localhost:4000/weather?address=${location}`).then(res => res.json().then(data => {
+    fetch(`/weather?address=${location}`).then(res => res.json().then(data => {
         if (data.error) {
 
             msg1.textContent = data.error
