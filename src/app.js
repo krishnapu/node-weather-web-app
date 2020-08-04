@@ -34,7 +34,7 @@ app.get('', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About Us',
-        message: 'We are going to ROCK',
+        message: 'This web app is created using a Weather API ( Open Weather Map ) and Mapbox API. Thanks for using it..',
         name: 'Hasta la vista Baby'
     })
 })
@@ -43,7 +43,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
-        message: 'We are here to help you',
+        message: 'Visit this github page to get the actual code.',
         name: 'Hasta la vista Baby'
     })
 })
@@ -104,4 +104,4 @@ app.get('*', (req, res) => {
 
 
 
-app.listen(port, () => console.log('Server is started' + port))
+app.listen(port, () => console.log('Server is started at ' + port))

@@ -18,7 +18,7 @@ form.addEventListener('submit', (e) => {
         } else {
             msg1.textContent = data.location
             msg2.textContent = data.description
-            msg2.style.color = 'green'
+
 
         }
 
